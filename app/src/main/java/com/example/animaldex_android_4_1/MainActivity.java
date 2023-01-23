@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = (WebView)findViewById(R.id.webView);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setWebChromeClient(new WebChromeClient());
-        webView.loadUrl("https://animaldex.github.io/AnimalDex/");
+        webView.loadUrl("https://6588-2a0c-5a80-3d03-2b00-d93b-1153-6de1-d8f2.eu.ngrok.io/");
     }
 }
